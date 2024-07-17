@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/9b094784fe.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Musicana</title>
+  </head>
+  <body>
+    <div class="bg-dark">
+      <header class="sticky-top bg-dark-subtle" style="margin-bottom: 1px">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><h3>
+                <i
+                  class="fa-brands fa-napster fa-flip"
+                  style="color: #0e0628"
+                ></i>
+                Musicana
+              </h3></a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarToggler"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-2">
+                <li class="nav-item me-2">
+                  <button class="btn btn-outline-warning">
+                    welcome offer: 1 month trial @ $1
+                  </button>
+                </li>
+                <li class="nav-item me-2">
+                  <button class="btn btn-outline-info">
+                    Get musicana plus
+                  </button>
+                </li>
+                <li class="nav-item">
+                  <button class="btn btn-outline-secondary">
+                    Sign_up/Login
+                  </button>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+        <div class="container-fluid">
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link text-black active" href="#">All</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="html/trending/index.html"
+                >Trending_songs</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="/html/New/index.html"
+                >New_songs</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="/html/old/index.html"
+                >Old_songs</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="/html/mymusic/index.html"
+                >My_music</a
+              >
+            </li>
+          </ul>
+        </div>
+      </header>
+      <div class="bg-dark text-white container-fluid">
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner" data-aos="fade-down">
+            <div class="carousel-item active">
+              <a href="#"
+                ><img
+                  src="https://img.wynk.in/unsafe/880x307/filters:no_upscale():strip_exif():format(webp)/https://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/65a68ec7ed7dad04b5a74e4e/BANNER_94879319150057.png"
+                  class="d-block w-100"
+                  alt="..."
+              /></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#"
+                ><img
+                  src="https://img.wynk.in/unsafe/880x307/filters:no_upscale():strip_exif():format(webp)/https://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/667014aa8eb8e9491901c6d9/BANNER_10834619175232.jpg"
+                  class="d-block w-100"
+                  alt="..."
+              /></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#"
+                ><img
+                  src="https://img.wynk.in/unsafe/880x307/filters:no_upscale():strip_exif():format(webp)/https://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/667eb2fd01fd9c087c7f9b13/BANNER_27281925731717.jpg"
+                  class="d-block w-100"
+                  alt="..."
+              /></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#"
+                ><img
+                  src="https://img.wynk.in/unsafe/880x307/filters:no_upscale():strip_exif():format(webp)/https://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/667ea2b77cce3b53e44f7b8a/BANNER_3876145781552.jpg"
+                  class="d-block w-100"
+                  alt="..."
+              /></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#"
+                ><img
+                  src="https://img.wynk.in/unsafe/880x307/filters:no_upscale():strip_exif():format(webp)/https://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/6687c9c617af7a2f69a2e1e3/BANNER_28792974799207.jpg"
+                  class="d-block w-100"
+                  alt="..."
+              /></a>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <br />
+        <h3 class="text-warning">Top Charts</h3>
+        <br />
+        <div class="d-flex justify-content-around flex-wrap">
+          <div class="card mb-2" style="width: 250px" data-aos="fade-right">
+            <a href="/songs/Hua Main_64(PagalWorld.com.cm).mp3" target="_blank">
+              <img
+                src="https://m.media-amazon.com/images/M/MV5BMDQwOTI3NTMtZjA0My00M2E3LThmODUtODdiNTQ3ZjNiNGE3XkEyXkFqcGdeQXVyNTM2NTg3Nzg@._V1_.jpg"
+                class="card-img-top"
+                height="300px"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text">HINDI</p>
+                <p class="card-text">TOP 50</p>
+              </div>
+            </a>
+          </div>
+          <div class="card mb-2" style="width: 250px" data-aos="fade-down">
+            <a href="/songs/Bad Munda.mp3" target="_blank"
+              ><img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN2bIPcIv_HMd4SL_dMdlIlOAbRkM-bItOhw&usqp=CAU"
+                class="card-img-top"
+                height="300px"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text">PUNJABI</p>
+                <p class="card-text">TOP 50</p>
+              </div></a
+            >
+          </div>
+          <div class="card mb-2" style="width: 250px" data-aos="fade-down">
+            <a
+              href="/songs/Your-Eyes-Got-My-Heart(PaglaSongs).mp3"
+              target="_blank"
+              ><img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKyMXJQyhK0y_PvKoJ52zVVNRaFIMlAVVxqFv8PEYFB-Nt1jNH9XgKn2TmprDbo7M0eSU&usqp=CAU"
+                class="card-img-top"
+                height="300px"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text">ENGLISH</p>
+                <p class="card-text">TOP 50</p>
+              </div></a
+            >
+          </div>
+          <div class="card mb-2" style="width: 250px" data-aos="fade-right">
+            <a href="/songs/Ijazat.mp3" target="_blank"
+              ><img
+                src="https://stat5.bollywoodhungama.in/wp-content/uploads/2016/04/maxresdefault-4-720x405.jpg"
+                class="card-img-top"
+                height="300px"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text">ROMANCE</p>
+                <p class="card-text">TOP 50</p>
+              </div></a
+            >
+          </div>
+        </div>
+        <br />
+        <h3 class="text-warning">New Releases</h3>
+        <div class="d-flex justify-content-around flex-wrap">
+          <div class="card mb-2" style="width: 250px" data-aos="flip-left">
+            <a
+              href="/songs/Laa Pila De Sharaab_64(PagalWorld.com.cm).mp3"
+              target="_blank"
+              ><img
+                src="https://a10.gaanacdn.com/gn_img/albums/D0PKLrWGl9/PKLvPJ1rWG/size_m.jpg"
+                class="card-img-top"
+                height="300px"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text">Laa pila de sharab</p>
+              </div></a
+            >
+          </div>
+          <div class="card mb-2" style="width: 250px" data-aos="zoom-in-up">
+            <a href="/songs/Thoughts - Prodgk.mp3" target="_blank"
+              ><img
+                src="https://a10.gaanacdn.com/gn_img/albums/9En3pqeWXD/n3pkXLw9KX/size_m.jpg"
+                class="card-img-top"
+                height="300px"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text">THOUGHTS</p>
+              </div></a
+            >
+          </div>
+          <div class="card mb-2" style="width: 250px" data-aos="zoom-in-up">
+            <a
+              href="/songs/Akh Da Taara-(PagalSongs.Com.IN).mp3"
+              target="_blank"
+              ><img
+                src="https://a10.gaanacdn.com/gn_img/albums/g4w3vr3jJB/w3v58p8eKj/size_m_1712116950.jpg"
+                class="card-img-top"
+                height="300px"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text">Akh da taara</p>
+              </div></a
+            >
+          </div>
+          <div class="card mb-2" style="width: 250px" data-aos="flip-right">
+            <a href="/songs/Problems Over Peace.mp3" target="_blank"
+              ><img
+                src="https://a10.gaanacdn.com/gn_img/albums/JD2KJyAbOL/2KJ5qrBebO/size_m.jpg"
+                class="card-img-top"
+                height="300px"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text">Problems over peace</p>
+              </div></a
+            >
+          </div>
+        </div>
+        <br />
+        <h3 class="text-warning">Top Artists</h3>
+        <br />
+        <div class="">
+          <div class="row">
+            <div class="col-md-2" data-aos="fade-up">
+              <div class="card mb-4 shadow-sm max">
+                <img
+                  src="https://a10.gaanacdn.com/gn_img/artists/Dk9KNk23Bx/k9KNqJJbBx/size_m_1638898900.webp"
+                  class="card-img-top"
+                  alt="Artist 1"
+                />
+                <div class="card-body">
+                  <h5 class="card-title"><a href="#">Arijit Singh</a></h5>
+                  <p class="card-text">
+                    Arijit Singh is a renowned Indian playback singer and music
+                    composer celebrated for his soulful voice and emotive
+                    renditions.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Follow
+                      </button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2" data-aos="fade-up">
+              <div class="card mb-4 shadow-sm max">
+                <img
+                  src="https://a10.gaanacdn.com/gn_img/artists/Dk9KNk23Bx/k9KNgP763B/size_m_1595857138.webp"
+                  class="card-img-top"
+                  alt="Artist 2"
+                />
+                <div class="card-body">
+                  <h5 class="card-title"><a href="#">Tony Kakkar</a></h5>
+                  <p class="card-text">
+                    Tony Kakkar is a prominent Indian singer, composer, and
+                    songwriter known for his catchy tunes and contributions.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Follow
+                      </button>
+                    </div>
+                    <small class="text-muted">12 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2" data-aos="fade-up">
+              <div class="card mb-4 shadow-sm max">
+                <img
+                  src="https://a10.gaanacdn.com/gn_img/artists/10q3ZR1352/0q3Z6Lg135/size_m_1712052402.webp"
+                  class="card-img-top"
+                  alt="Artist 2"
+                />
+                <div class="card-body">
+                  <h5 class="card-title"><a href="#">Jubin Nautiyal</a></h5>
+                  <p class="card-text">
+                    Jubin Nautiyal is a highly acclaimed Indian playback singer
+                    known for his versatile voice and emotive renditions.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Follow
+                      </button>
+                    </div>
+                    <small class="text-muted">12 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2" data-aos="fade-up">
+              <div class="card mb-4 shadow-sm max">
+                <img
+                  src="https://a10.gaanacdn.com/gn_img/artists/6Zxb2r7b9w/Zxb2xp0w39/size_m.jpg"
+                  class="card-img-top"
+                  alt="Artist 2"
+                />
+                <div class="card-body">
+                  <h5 class="card-title"><a href="#">B Praak</a></h5>
+                  <p class="card-text">
+                    B Praak, whose real name is Pratik Bachan, is a highly
+                    talented Indian singer, music composer, and lyricist.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Follow
+                      </button>
+                    </div>
+                    <small class="text-muted">12 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2" data-aos="fade-up">
+              <div class="card mb-4 shadow-sm max">
+                <img
+                  src="https://a10.gaanacdn.com/gn_img/artists/w4MKPDOKoj/4MKPgoQgbo/size_m_1516802409.webp"
+                  class="card-img-top"
+                  alt="Artist 2"
+                />
+                <div class="card-body">
+                  <h5 class="card-title"><a href="#">Honey Singh</a></h5>
+                  <p class="card-text">
+                    Honey Singh, also known as Yo Yo Honey Singh, is a prominent
+                    figure in the Indian music industry, He won his era.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Follow
+                      </button>
+                    </div>
+                    <small class="text-muted">12 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2" data-aos="fade-up">
+              <div class="card mb-4 shadow-sm max">
+                <img
+                  src="https://a10.gaanacdn.com/gn_img/artists/Rz4W87v3xD/Rz4W8ppWxD/size_m_1638817418.webp"
+                  class="card-img-top"
+                  alt="Artist 2"
+                />
+                <div class="card-body">
+                  <h5 class="card-title"><a href="#">Neha Kakkar</a></h5>
+                  <p class="card-text">
+                    Neha Kakkar is a highly acclaimed Indian playback singer
+                    known for her dynamic vocals and energetic performances.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+                        Follow
+                      </button>
+                    </div>
+                    <small class="text-muted">12 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+      </div>
+      <footer class="text-white">
+        <div class="container border rounded">
+          <br />
+          <h2 class="text-danger" data-aos="fade-right">About Musicana</h2>
+          Musicana is a complete package that allows you free online music
+          streaming, set caller tunes, listen to podcasts, download MP3 music
+          offline, and much more! Since music is essentially the only thing that
+          can truly understand a person, we consistently offer our audience the
+          ideal blend of MP3 Songs by their favourite artists and of versatile
+          genres.
+          <br /><br />
+          <h2 class="text-danger" data-aos="fade-right">
+            Play & Download FREE MP3 Songs in all languages
+          </h2>
+          One of the unique features of Musicana is that it offers users the
+          ability to stream music in multiple regional languages, including
+          Hindi, Punjabi, Bengali, Tamil, Telugu, and more. Also, users of the
+          app can download MP3 songs for offline listening. This online music
+          platform provides access to additional features such as offline
+          listening, high-quality audio, and exclusive content.
+          <br /><br />
+          <h2 class="text-danger" data-aos="fade-right">
+            Musicana One Stop Destination for Offline & Online Music!
+          </h2>
+          Musicana offers users access to a vast library of music, including
+          Indian and international tracks across various genres like Bollywood,
+          Punjabi, pop, rock, and more. We have made online music streaming
+          simple, fun, and all about you! So, what's the wait for, discover and
+          listen to millions of songs, playlists, podcasts & download MP3 songs
+          on any device including mobile for free exclusively on Musicana. Keep
+          Listening Musicana!
+          <br />
+          <br />
+        </div>
+        <br />
+        <hr class="container" />
+        <br />
+        <div
+          class="container d-flex justify-content-between"
+          data-aos="fade-up"
+        >
+          <div>
+            <b
+              ><a href="#">ABOUT US</a> | <a href="#">PRIVACY POLICY</a> |
+              <a href="#">TERMS OF USE</a> | <a href="#">CONTACT US</a> |
+              <a href="#">HELLOTUNES</a></b
+            >
+          </div>
+          <div>
+            <a href="#"><i class="fa-brands fa-github fs-4 text-white"></i></a>
+            <a href="#"
+              ><i class="fa-brands fa-linkedin fs-4 text-white"></i
+            ></a>
+            <a href="#"
+              ><i class="fa-brands fa-instagram fs-4 text-white"> </i
+            ></a>
+            <a href="#"><i class="fa-brands fa-youtube fs-4 text-white"></i></a>
+          </div>
+        </div>
+        <br />
+        <hr class="container" />
+        <div class="container">
+          <p>
+            <small>
+              Musicana is your gateway to the best and latest in music, offering
+              over 30 million songs across diverse languages including Hindi,
+              English, Bollywood, and regional tracks. Stream your favourite
+              Hindi songs, Bollywood music, English MP3 songs, radio, podcast
+              and regional music online or download songs to enjoy anytime,
+              anywhere!
+            </small>
+          </p>
+        </div>
+        <br />
+      </footer>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
