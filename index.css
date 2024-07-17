@@ -6,7 +6,7 @@ a{
 }
 
 a:hover{
-    color: rgb(240, 244, 10);
+    color: red;
 }
 
 .max:hover{
