@@ -5,6 +5,7 @@ import TrendS from "./components/TrendingSongs/trending";
 import OldS from "./components/OldSongs/old";
 import NewS from "./components/NewSongs/new";
 import MySongs from "./components/MyMusic/mySongs";
+import Hindi from "./components/Home/Hindi/hindi";
 
 
 const App =()=>{
@@ -17,7 +18,8 @@ const App =()=>{
           <Route path="/new" element={<NewS />}></Route>
           <Route path="/old" element={<OldS />}></Route>
           <Route path="/mymusic" element={<MySongs />}></Route>
-        </Routes>
+          <Route path="/hindi" element={<Hindi />}></Route>
+          </Routes>
       </BrowserRouter>
     </>
   )
