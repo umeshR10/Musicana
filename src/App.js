@@ -6,6 +6,9 @@ import OldS from "./components/OldSongs/old";
 import NewS from "./components/NewSongs/new";
 import MySongs from "./components/MyMusic/mySongs";
 import Hindi from "./components/Home/Hindi/hindi";
+import English from "./components/Home/English/english";
+import Punjabi from "./components/Home/Punjabi/punjabi";
+import Romance from "./components/Home/Romance/romance";
 
 
 const App =()=>{
@@ -19,6 +22,9 @@ const App =()=>{
           <Route path="/old" element={<OldS />}></Route>
           <Route path="/mymusic" element={<MySongs />}></Route>
           <Route path="/hindi" element={<Hindi />}></Route>
+          <Route path="/english" element={<English />}></Route>
+          <Route path="/punjabi" element={<Punjabi />}></Route>
+          <Route path="/romantic" element={<Romance />}></Route>
           </Routes>
       </BrowserRouter>
     </>

@@ -96,12 +96,12 @@ const Home = () => {
               />
               <div className="card-body">
                 <p className="card-text">HINDI</p>
-                <p className="card-text">TOP 50</p>
+                <p className="card-text">TOP 18</p>
               </div>
             </Link>
           </div>
           <div className="card mb-2" style={{ width: "250px" }}>
-            <Link to="">
+            <Link to="/punjabi">
               <img
                 src="https://cover.mr-jatt.im/thumb/498615/Bad-Munda-1.jpg"
                 className="card-img-top"
@@ -110,13 +110,13 @@ const Home = () => {
               />
               <div className="card-body">
                 <p className="card-text">PUNJABI</p>
-                <p className="card-text">TOP 50</p>
+                <p className="card-text">TOP 18</p>
               </div>
             </Link>
           </div>
           <div className="card mb-2" style={{ width: "250px" }}>
             <Link
-              to=""
+              to="/english"
             >
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKyMXJQyhK0y_PvKoJ52zVVNRaFIMlAVVxqFv8PEYFB-Nt1jNH9XgKn2TmprDbo7M0eSU&usqp=CAU"
@@ -126,12 +126,12 @@ const Home = () => {
               />
               <div className="card-body">
                 <p className="card-text">ENGLISH</p>
-                <p className="card-text">TOP 50</p>
+                <p className="card-text">TOP 18</p>
               </div>
             </Link>
           </div>
           <div className="card mb-2" style={{ width: "250px" }}>
-            <Link to="">
+            <Link to="/romantic">
               <img
                 src="https://stat5.bollywoodhungama.in/wp-content/uploads/2016/04/maxresdefault-4-720x405.jpg"
                 className="card-img-top"
@@ -140,7 +140,7 @@ const Home = () => {
               />
               <div className="card-body">
                 <p className="card-text">ROMANCE</p>
-                <p className="card-text">TOP 50</p>
+                <p className="card-text">TOP 18</p>
               </div>
             </Link>
           </div>

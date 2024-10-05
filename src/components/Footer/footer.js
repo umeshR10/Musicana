@@ -74,7 +74,7 @@ const Footer = () => {
           </p>
         </div>
         <br />
-        <button
+        {/* <button
           type="button"
           data-mdb-button-init
           data-mdb-ripple-init
@@ -82,7 +82,7 @@ const Footer = () => {
           id="btn-back-to-top"
         >
           <i className="fa-solid fa-angle-up"></i>
-        </button>
+        </button> */}
       </footer>
     </>
   );
